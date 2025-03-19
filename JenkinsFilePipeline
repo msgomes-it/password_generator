@@ -30,7 +30,7 @@ pipeline {
 
         stage('Production') {
             steps {
-                sh 'firebase deploy -P password-generator-produ-57f633 --token "$FIREBASE_DEPLOY_TOKEN"'
+                sh 'firebase deploy -P password-generator-prod-2 --token "$FIREBASE_DEPLOY_TOKEN"'
             }
         }
     }
